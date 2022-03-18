@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyRecyclerView</string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="from">Asal</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">with CardView</string>
+    <string name="description">deskripsi</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="deskripsi_foto">deskripsi foto</string>
+    <string name="egg_notification_channel_id" />
+    <string name="notification_title" />
+    <string name="channel_name">Notify</string>
+    <string name="channel_description">gatau males pengen beli trek</string>
+    <string name="get_notification">Get Notification</string>
+
+
+
+</resources>
