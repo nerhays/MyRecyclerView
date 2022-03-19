@@ -37,7 +37,9 @@ class ListHeroAdapter(private val listHero: ArrayList<Hero>) : RecyclerView.Adap
         var tvFrom: TextView = itemView.findViewById(R.id.tv_item_from)
         var imgPhoto: ImageView = itemView.findViewById(R.id.img_item_photo)
 
+
     }
+
 
 }
 
