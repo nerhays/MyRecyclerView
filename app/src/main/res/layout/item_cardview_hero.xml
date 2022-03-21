@@ -23,7 +23,8 @@
             android:layout_marginBottom="4dp"
             android:scaleType="centerCrop"
             tools:src="@tools:sample/avatars"
-            android:contentDescription="@string/deskripsi_foto" />
+            android:contentDescription="@string/deskripsi_foto"
+            />
         <TextView
             android:id="@+id/tv_item_name"
             android:layout_width="match_parent"
@@ -35,7 +36,8 @@
             android:layout_toEndOf="@id/img_item_photo"
             android:textSize="16sp"
             android:textStyle="bold"
-            tools:text="@string/heroes_name" />
+            tools:text="@string/heroes_name"
+            android:fontFamily="@font/rbotobold"/>
 
         <TextView
             android:id="@+id/tv_item_description"
@@ -48,7 +50,8 @@
             android:layout_toEndOf="@id/img_item_photo"
             android:ellipsize="end"
             android:maxLines="5"
-            tools:text="@string/description" />
+            tools:text="@string/description"
+            android:fontFamily="@font/fredoke"/>
         <LinearLayout
             android:id="@+id/layout_button"
             android:layout_width="match_parent"
@@ -64,7 +67,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/favorite"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/akhir"/>
             <Button
                 android:id="@+id/btn_set_share"
                 style="@style/Widget.AppCompat.Button.Colored"
@@ -72,7 +76,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/share"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/akhir"/>
         </LinearLayout>
     </RelativeLayout>
 
